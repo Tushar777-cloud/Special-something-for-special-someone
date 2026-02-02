@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Special One ❤️</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Poppins:wght@300;400;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="gallery-container"></div>
+    <div class="container">
+        <header>
+            <div class="heartbeat">❤️</div>
+            <h1>A Special Question for You...</h1>
+        </header>
+
+        <main id="question-section">
+            <div class="gif-container">
+                <!-- Placeholder for a cute asking GIF. I'll use a reliable external URL or the user's uploaded image if suitable, but for now a placeholder is safe -->
+                <img src="https://media.tenor.com/BMMX83WpDEoAAAAi/mocha-bear-hearts.gif" alt="Cute Bear Asking"
+                    class="hero-gif">
+            </div>
+
+            <p class="question-text">Will you be my Valentine?</p>
+
+            <div class="buttons">
+                <button id="yes-btn">Yes, absolutely! 💖</button>
+                <button id="no-btn">No</button>
+            </div>
+        </main>
+
+        <section id="celebration-section" class="hidden">
+            <h2>Yay! I knew it! 🥰</h2>
+            <div class="gif-container">
+                <img src="bear-kiss-bear-kisses.gif" alt="Celebration Kiss" class="hero-gif">
+            </div>
+            <div class="postbox-container">
+                <div class="post-box">
+                    <div class="lid"></div>
+                    <div class="letter">
+                        <p>My Dearest,</p>
+                        <p>You make my world brighter just by being in it. <br>Happy Valentine's Day Simran...!<br> I
+                            Love You ❤️</p>
+                    </div>
+                </div>
+            </div>
+            <p class="instruction-text">(Click the mailbox! 💌)</p>
+        </section>
+    </div>
+
+    <canvas id="confetti-canvas"></canvas>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
